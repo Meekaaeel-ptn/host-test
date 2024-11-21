@@ -1,0 +1,41 @@
+{
+    "batchStatus": "Running",
+    "slaViolations": 2,
+    "successRate": 66,
+    "liveBatchProcessing": [
+      {
+        "clientName": "Cape Union Mart",
+        "status": "Complete",
+        "startTime": "02:00 AM",
+        "endTime": "04:00 AM"
+      },
+      {
+        "clientName": "Client2",
+        "status": "Running",
+        "startTime": "03:00 AM",
+        "endTime": null
+      },
+      {
+        "clientName": "Client3",
+        "status": "Running",
+        "startTime": "04:00 AM",
+        "endTime": null
+      }
+    ],
+    "slaBreaches": [
+      {
+        "clientName": "Client2",
+        "breachTime": "03:00 AM - 07:00 AM"
+      },
+      {
+        "clientName": "Client3",
+        "breachTime": "02:00 AM - 06:30 AM"
+      }
+    ],
+    "totalSlaViolations": {
+      "daily": [2, 3, 5, 1, 2, 4, 3],
+      "weekly": [5, 10, 12, 9, 15],
+      "monthly": [30, 35, 40]
+    }
+  }
+  

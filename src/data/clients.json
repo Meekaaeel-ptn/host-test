@@ -1,0 +1,27 @@
+[
+    {
+      "clientId": 1,
+      "clientName": "Cape Union Mart",
+      "contactEmail": "contact@capeunionmart.com",
+      "totalBatches": 120,
+      "violations": 5,
+      "successRate": 95
+    },
+    {
+      "clientId": 2,
+      "clientName": "Client2",
+      "contactEmail": "support@client2.com",
+      "totalBatches": 98,
+      "violations": 10,
+      "successRate": 85
+    },
+    {
+      "clientId": 3,
+      "clientName": "Client3",
+      "contactEmail": "info@client3.com",
+      "totalBatches": 110,
+      "violations": 8,
+      "successRate": 90
+    }
+  ]
+  
