@@ -3,7 +3,8 @@ import react from '@vitejs/plugin-react';
 import { viteStaticCopy } from 'vite-plugin-static-copy';
 
 export default defineConfig({
-  plugins: [react(), viteStaticCopy({
+  plugins: [react(),
+  viteStaticCopy({
     targets: [
       {
         src: 'src/assets/images/icons/*',
@@ -11,6 +12,7 @@ export default defineConfig({
       }
     ]
   })],
+  base:"/host-test/",
   assetsInclude: ['**/*.PNG'],
   resolve: {
     alias: {
@@ -18,12 +20,3 @@ export default defineConfig({
     },
   },
 });
-
-
-// import { defineConfig } from 'vite'
-// import react from '@vitejs/plugin-react'
-
-// // https://vite.dev/config/
-// export default defineConfig({
-//   plugins: [react()],
-// })
